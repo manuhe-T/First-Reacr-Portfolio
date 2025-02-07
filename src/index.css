@@ -1,0 +1,172 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* This imports the Tailwind CSS styles */
+@import 'tailwindcss';
+
+html {
+  /* font-family: 'Poppins', serif; */
+  font-family: 'Inter', serif;
+}
+
+.nav a {
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.nav a:hover {
+  opacity: 0.7;
+}
+.picDiv {
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #ffffffcb;
+  box-shadow: 0 0 10px 0 #ffffff;
+}
+.pic {
+  width: 100%;
+  transform: scale(1.5);
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+}
+.card img {
+  width: 70px;
+}
+.arrow {
+  opacity: 0.85; /* Ensure it's not causing layout issues */
+  z-index: 1; /* Ensure it's lower than the navbar */
+  position: relative; /* Adjust position if needed */
+}
+
+.work__cards .work__card {
+  width: 100%;
+  height: 230px;
+  background-color: #1c1917;
+}
+/* Base styles */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* Adjust gap as needed */
+}
+
+/* Media query for 543px */
+@media (max-width: 543px) {
+  .cards {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+  .card {
+    width: 380px; /* Full width */
+  }
+}
+/* Media query for 543px */
+@media (min-width: 543px) {
+  .cards {
+    grid-template-columns: 1fr 1fr; /* Single column layout */
+  }
+  .card {
+    width: 220px; /* Full width */
+  }
+}
+
+/* Media query for md breakpoint (768px or higher) */
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  }
+  .card {
+    max-width: 150px; /* Full width */
+  }
+  .work__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media query for md breakpoint (885px or higher) */
+@media (min-width: 885px) {
+  .card {
+    max-width: 200px; /* Full width */
+  }
+}
+/* Media query for md breakpoint (970px or higher) */
+@media (min-width: 970px) {
+  .card {
+    max-width: 300px; /* Full width */
+  }
+  .custom-paragraph {
+    max-width: 500px;
+  }
+}
+
+.custom-paragraph {
+  max-width: 400px; /* Maximum width */
+  min-width: 300px; /* Minimum width */
+  margin: 0 auto; /* Center the paragraph */
+  overflow-wrap: break-word; /* Text wrapping */
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+}
+.custom-h1 {
+  max-width: 700px; /* Maximum width */
+  min-width: 300px; /* Minimum width */
+  overflow-wrap: break-word; /* Text wrapping */
+  padding: 10px;
+  line-height: 1.5;
+  /* border: 1px solid #ddd; */
+}
+
+.work__card {
+  width: 520px;
+  height: 235px;
+}
+
+.work__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.work__card img:hover {
+  opacity: 0.8;
+}
+
+.soft--skill .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f3f4f6;
+}
+.soft--skill .sub--title {
+  font-size: 12px;
+  font-weight: 300;
+  color: #f3f4f687;
+}
+
+.experience .title {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #f3f4f6;
+}
+.experience .sub--title {
+  font-size: 12px;
+  font-weight: 200;
+  color: #f3f4f687;
+}
+.skill--div {
+  margin-bottom: 14px;
+}
+
+.socials img {
+  opacity: 0.5;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
