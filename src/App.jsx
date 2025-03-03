@@ -4,7 +4,7 @@ import MainLayout from './Layouts/MainLayout';
 import WorksPage from './Pages/WorksPage';
 function App() {
   return (
-    <div className="px-6 md:px-22 py-6 bg-[#190019] min-h-screen">
+    <div className="px-6 md:px-22 py-6 bg-[#0e050e] min-h-screen">
       <BrowserRouter>
         <Routes>
           <Route element={<MainLayout />}>
