@@ -7,10 +7,10 @@ const Footer = () => {
     <div className=" md:w-[90%] md:mx-auto mt-20 scroll-mt-20" id="contact">
       <div className="mt-52 ml-3 mb-40">
         <span className="font-bold text-gray-400 text-[3rem] md:text-7xl">
-          Nahom <span className="text-neutral-500">H.</span>
+          Manuhe <span className="text-neutral-500">T.</span>
         </span>
         <h1 className="text-xl mt-16 text-gray-400 cursor-pointer hover:opacity-85">
-          hi@nahom.co
+          hi@manda.co
           <span className="text-2xl text-gray-400 ">&#x2197;</span>
         </h1>
       </div>
