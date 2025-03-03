@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <div className="mt-44 ml-3">
         <span className="font-extrabold text-neutral-200 text-[3rem]">
-          Nahom.
+          Manuhe.
         </span>
         <h1 className="text-2xl text-gray-500">Full Stack Developer</h1>
         <h1 className="text-gray-500 mt-14"> Adam. Ethiopia</h1>
