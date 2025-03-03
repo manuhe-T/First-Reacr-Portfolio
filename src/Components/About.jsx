@@ -22,7 +22,7 @@ const About = () => {
         </div>
         <div className="text-white flex space-x-6 mt-6 text-[13px]">
           <p className="cursor-pointer font-semibold">
-            hi@nahome.co{' '}
+            hi@manda.co{' '}
             <span className="text-[16px] px-1 opacity-85">&#x2197;</span>{' '}
           </p>{' '}
           <p className="cursor-pointer font-semibold">
